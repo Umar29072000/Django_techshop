@@ -1,0 +1,92 @@
+/* Atur font global dengan font modern */
+body {
+    background: linear-gradient(135deg, #f7f7f7, #eaeaea);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header untuk judul */
+h1 {
+    color: #007bff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Input pencarian */
+#search-input {
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* Styling untuk setiap item produk */
+.list-group-item {
+    font-size: 1.2rem;
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efek hover dengan transformasi */
+.list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+}
+
+.list-group-item:hover strong,
+.list-group-item:hover .price {
+    color: #fff;
+}
+
+/* Gaya brand produk */
+.list-group-item strong {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* Harga produk */
+.list-group-item .price {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1.2rem;
+    float: right;
+}
+
+/* Transisi untuk harga dan brand saat dihover */
+.list-group-item:hover .price {
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
