@@ -18,7 +18,7 @@ git clone <repository_url>
 cd Django_techshop-main
 ```
 
-### 2. Create a Virtual Environment
+### Step 2: Create a Virtual Environment
 
 ```bash
 python -m venv venv
@@ -32,13 +32,13 @@ python -m venv venv
 cd Django_techshop-main
 ```
 
-### 3. Install Dependencies
+### Step 3: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Development Server
+### Step 4: Run the Development Server
 
 ```bash
 python manage.py runserver
