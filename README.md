@@ -11,11 +11,19 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 ### Step 1: Clone the Repository
+Create a free directory:
+```bash
+mkdir my_project
+```
+
+```bash
+cd my_project
+```
+
 If you're working with a repository, clone it using the following command:
 
 ```bash
 git clone <repository_url>
-cd Django_techshop-main
 ```
 
 ### Step 2: Create a Virtual Environment
@@ -29,7 +37,7 @@ python -m venv venv
 ```
 
 ```bash
-cd Django_techshop-main
+cd Django_techshop
 ```
 
 ### Step 3: Install Dependencies
