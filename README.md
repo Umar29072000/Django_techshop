@@ -11,6 +11,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 ### Step 1: Clone the Repository
+
 Create a free directory:
 ```bash
 mkdir my_project
