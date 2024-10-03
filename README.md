@@ -32,10 +32,6 @@ git clone <repository_url>
 python -m venv venv
 ```
 
-```bash
-cd Django_techshop
-```
-
 Open emulator, example Visual Studio Code:
 
 ```bash
@@ -47,6 +43,11 @@ Open terminal and run activate Virtual Environment:
 ```bash
 .\venv\Scripts\activate
 ```
+
+```bash
+cd Django_techshop
+```
+
 ### Step 3: Install Dependencies
 
 ```bash
